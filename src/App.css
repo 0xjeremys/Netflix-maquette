@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px 50px 20px 50px;
+}
+
+header img {
+  height: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-top: 12px;
+  font-weight: 700;
+}
+
+.img-container {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.img-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.img-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+section img {
+  height: 153px;
+  width: 240px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+footer p strong {
+  color: red;
+}
